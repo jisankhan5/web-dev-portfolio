@@ -25,6 +25,12 @@ nav{
 .text-primary{
     color:#FD6E0A;
 }
+.text-doc{
+    color: darkmagenta;
+}
+.text-ji{
+    color: chartreuse;
+}
 .dark-2{
     color: #474747;
 }
@@ -77,6 +83,7 @@ nav ul{
 }
 .banner-profile-pic{
     width: 580px;
+   
 }
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
@@ -142,3 +149,23 @@ main{
 .resume-download-cv{
     margin: 50px;
 }
+ /* footer style */
+ footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+
+  footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+  }
